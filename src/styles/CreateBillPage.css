@@ -1,0 +1,173 @@
+  .main-content {
+    /* margin-left: 250px; */
+    padding: 20px;
+    transition: margin-left 0.5s;
+    /* width: calc(100% - 200px); Initial width */
+  }
+  
+ 
+  
+  .main-content {
+    /* margin-left: 250px; */
+    padding: 20px;
+    transition: margin-left 0.5s;
+    /* width: calc(100% - 200px); Initial width */
+  }
+  
+  .add-btn{
+    float: right;
+  }
+  
+  
+  .main-card {
+    border-radius: 40px 10px 30px 0px;
+    border: 2px solid #7b7474;
+    margin-top: 60px;
+  }
+    table {
+    /* width: 100%; */
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    /* border: 1px solid #ddd; */
+    padding: 5px 20px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .create-bill-page-details {
+    display: block;
+    margin-top: 60px;
+  }
+  
+  .invoice-logo {
+    margin-top: -20px;
+  }
+  .invoice-logo img {
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+  .invoice-page {
+    width: 100%;
+    display: none;
+    background-color: rgb(240, 238, 238);
+    padding: 30px 10px 0px 0px;
+    margin-top: 70px;
+    border: 1px red dotted;
+  
+  }
+  .invoice-page h4 {
+    border-bottom: 1px solid black;
+  }
+  
+  .invoice-list {
+    list-style: none;
+    font-weight: bolder;
+  }
+  .total-calculation {
+    margin-left: 70%;
+  }
+  .total-calculation p {
+    margin-top: -10px;
+  }
+  .bill-amount {
+    font-weight: 900;
+    border: 4px solid black;
+    padding: 5px 10px;
+    border-radius: 10px 5px;
+    margin-left: 10px;
+  }
+  #centeredText {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 30px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  textarea:focus,
+  textarea.form-control:focus,
+  input.form-control:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  navigationBar [type="text"].form-control:focus,
+  [type="password"].form-control:focus,
+  [type="email"].form-control:focus,
+  [type="tel"].form-control:focus,
+  [contenteditable].form-control:focus {
+    box-shadow: inset 1px 1px 0 none;
+  }
+  .hovered {
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+  }
+  .suggestion-dropdown li {
+    padding: 5px 15px;
+  }
+  #download-btn {
+    margin-top: 30px;
+    margin-left: 45%;
+    text-align: center;
+    display: none;
+  }
+  #close-btn{
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    display: none;
+  }
+  
+  
+  /*  */
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .left-table,
+  .right-table {
+    width: calc(50% - 10px);
+  }
+  .left-table{
+    /* border: 1px red solid; */
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+  }
+  .right-table{
+    margin-left: 300px;
+    text-align: right;
+    /* border: 1px black solid; */
+    padding: 0px;
+  }
+  td{
+    width: 400px;
+  }
+  
+  .invoicetable{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px;
+    margin-top: -20px;
+    text-align: left;
+  }
+  .invoicetable td h6 {
+    margin: 0;
+  }  
